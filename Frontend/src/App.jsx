@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import AboutPage from "./pages/About-Us";
 import Portfolio from "./pages/Portfolio";
 import Services from "./pages/Services";
-import BookingForm from "./Components/Booking";
+import BookingForm from "./pages/BookingForm";
 import Contact from "./pages/Contact"; // Your contact page
 
 const App = () => {
