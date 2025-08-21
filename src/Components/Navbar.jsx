@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Logo from "../assets/image/logo-bg.png";
 
+
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -9,7 +10,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-5 md:px-10">
         {/* Logo */}
         <a href="/" className="flex items-center">
-          <img src={Logo} alt="Logo" className="h-10 w-auto" />
+          <img src={Logo} alt="Logo" className="h-15 w-60" />
           {/*<span className="ml-2 font-semibold text-lg text-pink-600">Makeover</span>*/}
         </a>
 

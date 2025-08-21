@@ -1,21 +1,31 @@
 import React from 'react';
-import { FaHeart, FaPalette, FaStar } from 'react-icons/fa';
+import { FaHeart, FaPalette, FaStar, FaBirthdayCake, FaGift } from "react-icons/fa";
 
 const serviceData = [
   {
-    title: "Wedding Makeup",
-    description: "Flawless bridal looks for your big day",
-    icon: <FaHeart className="text-pink-500" size={32} />
+    title: "Bridal Makeup",
+    description: "Flawless, high-definition bridal looks, including HD and airbrush makeup styles.",
+    icon: <FaHeart className="text-pink-600" size={40} />
   },
   {
-    title: "Custom Party Wear",
-    description: "Glamorous styles for any celebration",
-    icon: <FaPalette className="text-pink-500" size={32} />
+    title: "Party & Event Makeup",
+    description: "Glamorous, long-lasting makeup for parties, engagements, and special occasions.",
+    icon: <FaBirthdayCake className="text-pink-600" size={40} />
   },
   {
-    title: "Everyday Glam",
-    description: "Comfortable and elegant makeover looks",
-    icon: <FaStar className="text-pink-500" size={32} />
+    title: "HD Airbrush Makeup",
+    description: "Professional airbrush makeup providing a natural and flawless finish.",
+    icon: <FaPalette className="text-pink-600" size={40} />
+  },
+  {
+    title: "Engagement Makeup",
+    description: "Elegant and timeless makeup to celebrate your engagement moments.",
+    icon: <FaGift className="text-pink-600" size={40} />
+  },
+  {
+    title: "Family & Bridesmaid Makeup",
+    description: "Personalized makeup services for the bride’s family, bridesmaids, and guests.",
+    icon: <FaStar className="text-pink-600" size={40} />
   }
 ];
 

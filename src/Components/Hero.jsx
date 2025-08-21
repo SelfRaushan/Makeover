@@ -1,7 +1,16 @@
 import { motion } from "framer-motion";
 import react from "react";
+
+import bg4 from "../assets/image/bg4.jpg";
+
 const Hero = () => (
-  <section id="home" className="bg-[url('../assets/image/bg4.jpg')] min-h-screen flex flex-col justify-center items-center from-pink-100 to-pink-300 px-5 text-center">
+  <section id="home" className="min-h-screen flex flex-col justify-center items-center from-pink-100 to-pink-300 px-5 text-center"
+  style={{
+    backgroundImage: `url(${bg4})`,
+    backgroundSize: "cover", // Optional: Cover the section
+    backgroundPosition: "center", // Optional: Center the image
+  }}
+>
     <motion.h1
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}

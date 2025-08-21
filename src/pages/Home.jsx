@@ -7,14 +7,16 @@ import PortfolioSlider from "../Components/Portfolio";
 import TestimonialCarousel from "../Components/Testimonial";
 import BookingForm from "../Components/Booking";
 import ServicesSection from "../Components/ServicesSection";
+import About from "../Components/About";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <Hero />
+      <About />
       <ServicesSection />
-      {/* <PortfolioSlider images={images} /> */}
+      <PortfolioSlider />
       <TestimonialCarousel />
       <BookingForm />
       <Footer />
